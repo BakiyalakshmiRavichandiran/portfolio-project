@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<title>contact</title>
+<style>
+      #f1
+	  {
+	   width:700px;
+	   height:500px;
+	   background-color:orange;
+	   margin-left:400px;
+	   margin-top:110px;
+	   }
+	   h1{
+	    font-size:50px;
+		font-weight:bolder;
+		text-align:center;
+		margin-top:100px;
+		position:absolute;
+		top:50px;
+		left:580px;
+		}
+	   #d1
+	   {
+	    margin-left:200px;
+		margin-top:150px;
+		}
+		#d2{
+		margin-top:15px;
+		margin-left:200px;
+		}
+		#d3{
+		margin-top:15px;
+		margin-left:200px;
+		}
+		#d4{
+		margin-top:15px;
+		margin-left:200px;
+		}
+		#s1{
+		 position:absolute;
+		 top:100px;
+		 }
+		 #b{
+		 margin-top:40px;
+		margin-left:250px;
+		}
+		#b{
+		  width:200px;
+		  height:30px;
+		  background-color:black;
+		  color:white;
+		  }
+		  #f2
+		  {
+		  position:absolute;
+		  top:0px;
+		  }
+</style>
+</head>
+<body>
+    <form id='f1' action="#" method="get">
+	     <h1>Contact Form</h1>
+	<div id='s1'>
+	<div id='d1'>
+	     <label>Name:</label>
+		 <input type='text' id='t1' placeholder="Enter your username" required minlength="5" maxlength="10" autofocus>
+		 </div>
+		 <br>
+		 <div id='d2'>
+		 <label>Mobile No:</label>
+		 <input type="text" maxlength="10" required  placeholder="Enter your Number">
+		 </div>
+		 <br>
+		 <div id='d3'>
+		 <label>MailID:</label>
+		 <input type="mailid" placeholder="Enter your mailid" required minlength="10" maxlength="20">
+		 </div>
+		 <br>
+		 <div id='d4'>
+		 <label> Message</label>
+		 <textarea rows="3" cols="30" required placeholder="Enter your message"></textarea>
+		 </div>
+		 <form>
+		   <button type="submit" id='b'>submit</button>
+		   </form>
+	</div>
+	</form>
+	<form action="index.html" method="get" id="f2"><button type="submit">back</button></form>
+</body>
+</html>
